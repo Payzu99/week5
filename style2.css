@@ -1,0 +1,22 @@
+#carousel img{
+  width:100px;
+  height:50px;
+  border: 4px solid #fff;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.8);
+  filter: grayscale(100%);
+}
+#carousel{
+  display:flex;
+
+}
+#carousel img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#bigImage img{
+  width:532px;
+  height:300px;
+  border: 4px solid #fff;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.8);
+  
+}
